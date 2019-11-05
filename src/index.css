@@ -4,7 +4,7 @@ body {
   height:100%;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+
 }
 
 body {
@@ -40,8 +40,9 @@ body {
 
 .genre {
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   margin: 10px 30px;
   cursor: pointer;
   text-transform: uppercase;
@@ -85,9 +86,10 @@ body {
 .card__title {
   display: inline-block;
   float: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   width: calc(100% - 50px);
   padding: 0 20px;
-  font-size: 28px;
+  font-size: 15px;
   line-height: 26px;
   font-weight: bold;
 }
@@ -106,7 +108,7 @@ body {
 }
 
 .card__like i:hover {
-   transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 .card__subtitle {
@@ -119,18 +121,18 @@ body {
 }
 
 .card__subtitle span:after {
-   content: '';
-   display: inline-block;
-   width: 4px;
-   height: 4px;
-   border-radius: 4px;
-   margin: 0 5px;
-   vertical-align: middle;
-   background: #bdbcdd;
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  margin: 0 5px;
+  vertical-align: middle;
+  background: #bdbcdd;
 }
 
 .card__subtitle span:last-child:after {
- display: none;
+  display: none;
 }
 
 .card-info {
